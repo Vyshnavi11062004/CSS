@@ -1,0 +1,17 @@
+/*.external{
+	border: 3px solid black;
+	background-color: violet;
+}
+
+#vyshu{
+	font-size: 30px;
+	font-family: cursive;
+
+}*/
+
+
+body{
+	background-image: url('bg.jpeg');
+	background-repeat: no-repeat;  image will be not repeated multiple times
+	background-size: cover;
+}

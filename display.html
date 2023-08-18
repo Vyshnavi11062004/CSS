@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display Properties</title>
+	<style type="text/css">
+		h1{
+			background-color: grey;
+			display:inline;            /*h1 is a blocklevel element we can convert to inline*/
+		}
+		span{
+			background:red;
+			display: block;           /*span is a inline element we can convert to blocklevel*/
+		}
+		.b{
+			height: 300px;
+			width: 200px;
+			border:2px solid red;
+			float: left;
+			/*display: none;*/    /*it will display nothing, not even space is displayed*/
+			visibility: hidden;   /*it will hide the content but the space is shown*/
+		}
+		.c{
+			height: 300px;
+			width: 200px;
+			border:2px solid blue;
+			float: left;
+			
+		}
+		.d{
+			height: 300px;
+			width: 200px;
+			border:2px solid yellow;
+			float: left;
+			
+		}
+		.e{
+			height: 300px;
+			width: 200px;
+			border:2px solid green;
+			float: left;
+			
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Aditya College</h1>
+	<br><br>
+	<span>This is in Surampalem</span>
+	<br><br>
+	<div class="b"></div>
+	<div class="c"></div>
+	<div class="d"></div>
+	<div class="e"></div>
+</body>
+</html>
